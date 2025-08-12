@@ -1,11 +1,13 @@
 # DNMT in Trypanosomes: Machine Learning Analysis
 
 ## Overview
-This repository contains machine learning analyses for DNA methyltransferase (DNMT) proteins in trypanosomes, combining both unsupervised and supervised learning approaches to understand protein classification and feature analysis.
+This repository contains machine learning analyses for SAM-dependent DNA methyltransferase (DNMT) proteins in _Trypanosoma brucei_ using Evolutionary Scale Modelling 2 (ESM2) embeddings, combining both unsupervised and supervised learning approaches to understand protein classification and feature analysis.
 
 ## Project Structure
 
 ### Unsupervised Machine Learning
+ESM2 embeddings were generated (https://github.com/facebookresearch/esm)
+
 The first phase focuses on unsupervised learning techniques for protein clustering and visualization:
 
 - **Combined Genome Analysis**: t-SNE visualization scripts for combined trypanosome and methyltransferase datasets
@@ -55,9 +57,6 @@ The second phase implements supervised learning for protein classification:
 3. Run unsupervised analysis scripts for initial exploration
 4. Execute supervised learning scripts for classification
 5. Analyze results using the provided visualization tools
-
-## Author
-Juny Choi (junychoi01@gmail.com)
 
 ## License
 Public repository for research purposes
