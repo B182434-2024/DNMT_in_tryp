@@ -51,12 +51,5 @@ The second phase implements supervised learning for protein classification:
 - Visualization libraries (matplotlib, seaborn, plotly)
 - Bioinformatics tools for protein analysis
 
-## Usage
-1. Clone the repository
-2. Install required dependencies
-3. Run unsupervised analysis scripts for initial exploration
-4. Execute supervised learning scripts for classification
-5. Analyze results using the provided visualization tools
-
 ## License
 Public repository for research purposes
